@@ -15,3 +15,12 @@ def get_info():
 
 def print_info(name, year):
     print("Hi {} your birth year is {}".format(name, year))
+
+
+
+
+
+print(sum([1, 20, 393, 33]))
+
+li = [{'age': 33}, {'age': 23}, {'age': 53}]
+print(sum(x['age'] for x in li))
